@@ -11,7 +11,7 @@
 // @supportURL   https://github.com/sn4k3/Aliexpress-Tracking-QRBarcode/issues
 // @match        http*://*trade.aliexpress.com/order_detail.htm*
 // @grant        none
-// @require      http://code.jquery.com/jquery-latest.js
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lrsjng.jquery-qrcode/0.12.0/jquery.qrcode.js
 // ==/UserScript==
 
