@@ -12,9 +12,10 @@
 // @match        http*://*trade.aliexpress.com/order_detail.htm*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
-// @require      https://cdn.jsdelivr.net/jsbarcode/3.3.5/barcodes/JsBarcode.code128.min.js
-
+// @require      https://cdnjs.cloudflare.com/ajax/libs/lrsjng.jquery-qrcode/0.12.0/jquery.qrcode.js
 // ==/UserScript==
+
+// https://cdn.jsdelivr.net/jsbarcode/3.3.5/barcodes/JsBarcode.code128.min.js BACKUP
 
 (function() {
     'use strict';
@@ -48,5 +49,3 @@
         // Your code here...
     });
 })();
-
-// https://cdnjs.cloudflare.com/ajax/libs/lrsjng.jquery-qrcode/0.12.0/jquery.qrcode.js BACKUP
