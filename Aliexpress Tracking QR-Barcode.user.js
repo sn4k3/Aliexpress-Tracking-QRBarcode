@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         Aliexpress Tracking QR/Barcode
 // @namespace    http://tampermonkey.net/
+// @version      0.3
 // @description  Add a QR/barcode to tracking number inside order details page and create link's to 17track.net
 // @author       Tiago Conceição
 // @copyright    2016, Tiago Conceição
