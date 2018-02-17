@@ -14,7 +14,7 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lrsjng.jquery-qrcode/0.14.0/jquery-qrcode.min.js
 // @require      https://cdn.jsdelivr.net/jsbarcode/3.3.5/barcodes/JsBarcode.code128.min.js
-// @version 1.0beta
+// @version 1.0
 // ==/UserScript==
 
 (function() {
@@ -24,7 +24,7 @@
     };
 
     $(document).ready(function() {
-        var defaultUrlTracking = 'http://www.17track.net/en/track?nums=';
+        var defaultUrlTracking = 'https://t.17track.net/en#nums=';
         var urlTracking = defaultUrlTracking;
         var i = 0;
         var trackingNumbers = [];
